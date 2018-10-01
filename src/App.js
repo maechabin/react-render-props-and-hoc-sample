@@ -8,7 +8,7 @@ class App extends Component {
     return (
       <div>
         <RenderPropsSample />
-        <HocSample />
+        <HocSample foo={'React'} />
         <RenderPropsHocSample />
       </div>
     );
